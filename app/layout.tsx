@@ -1,7 +1,7 @@
 import SideBar from '<aiproject>/components/SideBar'
 import { SessionProvider } from "../components/SessionProvider"
 import { getServerSession} from "next-auth";
-import { authOptions } from "../app/api/auth/[...nextauth]";
+import { authOptions } from "../pages/api/auth/[...nextauth]";
 /* this is my file location: C:\Users\Jeremy.Carpenter\ai-project\app\api\auth\[...nextauth].ts*/
 import './globals.css'
 import Login from '<aiproject>/components/Login';
